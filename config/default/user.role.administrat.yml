@@ -1,0 +1,81 @@
+uuid: 9b0b2df2-47cf-4106-acc8-aa9e97c6af45
+langcode: en
+status: true
+dependencies:
+  module:
+    - block
+    - content_moderation
+    - contextual
+    - file
+    - filter
+    - image
+    - language
+    - media
+    - node
+    - path
+    - responsive_image
+    - search
+    - search_api
+    - system
+    - toolbar
+    - workflows
+id: administrat
+label: Administrator
+weight: 3
+is_admin: true
+permissions:
+  - 'access administration pages'
+  - 'access content overview'
+  - 'access contextual links'
+  - 'access files overview'
+  - 'access media overview'
+  - 'access site in maintenance mode'
+  - 'access site reports'
+  - 'access toolbar'
+  - 'access user profiles'
+  - 'administer account settings'
+  - 'administer blocks'
+  - 'administer content types'
+  - 'administer filters'
+  - 'administer image styles'
+  - 'administer languages'
+  - 'administer media'
+  - 'administer media types'
+  - 'administer menu'
+  - 'administer modules'
+  - 'administer nodes'
+  - 'administer permissions'
+  - 'administer responsive images'
+  - 'administer search'
+  - 'administer search_api'
+  - 'administer site configuration'
+  - 'administer software updates'
+  - 'administer themes'
+  - 'administer url aliases'
+  - 'administer users'
+  - 'administer workflows'
+  - 'bypass node access'
+  - 'cancel account'
+  - 'change own username'
+  - 'create media'
+  - 'create url aliases'
+  - 'delete all revisions'
+  - 'delete any file'
+  - 'delete any media'
+  - 'delete media'
+  - 'delete own files'
+  - 'link to any page'
+  - 'revert all revisions'
+  - 'search content'
+  - 'select account cancellation method'
+  - 'update any media'
+  - 'update media'
+  - 'use advanced search'
+  - 'view all media revisions'
+  - 'view all revisions'
+  - 'view any unpublished content'
+  - 'view latest version'
+  - 'view own unpublished content'
+  - 'view own unpublished media'
+  - 'view the administration theme'
+  - 'view user email addresses'

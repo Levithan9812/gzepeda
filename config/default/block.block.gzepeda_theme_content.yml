@@ -1,0 +1,22 @@
+uuid: 8fd0a402-135b-403b-bbe3-6b8728fe62df
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - gzepeda_theme
+_core:
+  default_config_hash: TsNW2mm_ugkXGtRsrTRv81lsmBsf1CxmAEmZr0-gf9c
+id: gzepeda_theme_content
+theme: gzepeda_theme
+region: content
+weight: -1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

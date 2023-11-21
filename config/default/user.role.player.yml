@@ -1,0 +1,14 @@
+uuid: 97481ff2-f007-4813-9880-b694f655a1ba
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - system
+id: player
+label: player
+weight: 4
+is_admin: null
+permissions:
+  - 'access content'
+  - 'view own unpublished content'

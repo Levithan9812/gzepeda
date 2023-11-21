@@ -1,0 +1,22 @@
+uuid: d1c09c56-0059-405d-96ab-340addc43c4b
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - gzepeda_theme
+_core:
+  default_config_hash: sugvsVxmcDuBc5Ku4cNir0Q4qm7t4AZlOnhfHBoaI-4
+id: gzepeda_theme_messages
+theme: gzepeda_theme
+region: content
+weight: -7
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Messages
+  label_display: '0'
+  provider: system
+visibility: {  }

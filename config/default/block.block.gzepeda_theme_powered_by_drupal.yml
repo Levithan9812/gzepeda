@@ -1,0 +1,22 @@
+uuid: 03ac1b36-409e-408f-a2ce-e61a8cbf5f99
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - gzepeda_theme
+_core:
+  default_config_hash: jYv8M6DxaA8yJIxMscUk7QLAzbLS0Fq0sO77atIZyxw
+id: gzepeda_theme_powered_by_drupal
+theme: gzepeda_theme
+region: footer
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -87,6 +87,7 @@ nbproject/*
 *.dd
 
 # NPM
+node_modules
 npm-debug.log
 
 # Drush 9 Checksums
@@ -122,3 +123,4 @@ oauth_keys/
 deployment_identifier
 /travis_wait*
 /files-private
+node_modules

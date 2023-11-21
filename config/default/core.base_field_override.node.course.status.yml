@@ -1,0 +1,22 @@
+uuid: bacc3c6e-fb81-4495-b412-2b303609f85f
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.course
+id: node.course.status
+field_name: status
+entity_type: node
+bundle: course
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

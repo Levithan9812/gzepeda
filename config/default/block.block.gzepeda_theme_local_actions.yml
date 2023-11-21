@@ -1,0 +1,20 @@
+uuid: a74d2e9f-59ae-4e88-916e-61fc246b18e7
+langcode: en
+status: true
+dependencies:
+  theme:
+    - gzepeda_theme
+_core:
+  default_config_hash: A7rG3uNfidARSomoS6DYEZU6nHjySvBSEanNJDsdJtY
+id: gzepeda_theme_local_actions
+theme: gzepeda_theme
+region: content
+weight: -2
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

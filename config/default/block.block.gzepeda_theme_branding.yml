@@ -1,0 +1,25 @@
+uuid: cb232d4f-7c85-4333-829b-fb1df159196e
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - gzepeda_theme
+_core:
+  default_config_hash: p8WUZphM4p4_dVeNdYGi5lRA-cvFQPI2ZdF0p4mUX98
+id: gzepeda_theme_branding
+theme: gzepeda_theme
+region: nav_branding
+weight: -6
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

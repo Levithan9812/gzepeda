@@ -1,0 +1,22 @@
+uuid: 70e291a8-cea7-4fb6-bec0-c9678b824dec
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - gzepeda_theme
+_core:
+  default_config_hash: 2jNU5GUbG3SYjOeVlBcl4zEXk-1HTwS0AZHeAQWWkRs
+id: gzepeda_theme_breadcrumbs
+theme: gzepeda_theme
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

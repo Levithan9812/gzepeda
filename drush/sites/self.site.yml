@@ -1,0 +1,15 @@
+# dev:
+#   host: gzepeda.d4all.mx
+#   user: d4all
+#   root: /var/www/drupal/d10/gzepeda/dev/docroot
+#   uri: 'https://gzepeda.d4all.mx'
+#   paths:
+#     drush-script: '/var/www/drupal/d10/gzepeda/dev/vendor/drush/drush/drush'
+
+# test:
+#   host: gzepeda-test.d4all.mx
+#   user: d4all
+#   root: /var/www/drupal/gzepeda/sen24/test/docroot
+#   uri: 'https://gzepeda-test.d4all.mx'
+#   paths:
+#     drush-script: '/var/www/drupal/d10/gzepeda/test/vendor/drush/drush/drush'

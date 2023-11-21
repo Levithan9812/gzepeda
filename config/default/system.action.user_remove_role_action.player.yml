@@ -1,0 +1,14 @@
+uuid: f8bc1ab1-9277-4466-bb09-389bea143ebe
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.player
+  module:
+    - user
+id: user_remove_role_action.player
+label: 'Remove the player role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: player

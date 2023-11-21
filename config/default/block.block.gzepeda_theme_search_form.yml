@@ -1,0 +1,23 @@
+uuid: 0372ea30-6380-401c-bcbc-5a713192cc7b
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - gzepeda_theme
+_core:
+  default_config_hash: a9SI5r3QNqB5HgJqm4HBOxNEMRcdTGD_0jB32Vy50y0
+id: gzepeda_theme_search_form
+theme: gzepeda_theme
+region: nav_additional
+weight: 0
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

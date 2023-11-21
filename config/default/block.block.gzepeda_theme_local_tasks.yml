@@ -1,0 +1,22 @@
+uuid: 19a46eed-18f2-41be-a0d9-3c5d5da7e6a0
+langcode: en
+status: true
+dependencies:
+  theme:
+    - gzepeda_theme
+_core:
+  default_config_hash: zdmfOkAl8vcspaALaWIP4bMAjEJghiGoseWzOSM0kqY
+id: gzepeda_theme_local_tasks
+theme: gzepeda_theme
+region: content
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

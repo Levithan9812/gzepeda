@@ -1,0 +1,21 @@
+uuid: 3c2551d0-6b3d-481e-9528-9acc17906356
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.course
+  module:
+    - user
+id: node.course.default
+targetEntityType: node
+bundle: course
+mode: default
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true
+  search_api_excerpt: true

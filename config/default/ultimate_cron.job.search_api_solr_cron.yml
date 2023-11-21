@@ -1,0 +1,17 @@
+uuid: 076035fb-88e7-44e7-8edd-95095eb97d6a
+langcode: en
+status: true
+dependencies:
+  module:
+    - search_api_solr
+title: 'Default cron handler'
+id: search_api_solr_cron
+weight: 0
+module: search_api_solr
+callback: search_api_solr_cron
+scheduler:
+  id: simple
+launcher:
+  id: serial
+logger:
+  id: database
