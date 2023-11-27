@@ -1,2 +1,13 @@
 project:
   machine_name: gzepeda
+  prefix: gz
+  human_name: 'Gzepeda'
+  profile:
+    name: minimal
+  local:
+    protocol: http
+    hostname: '${env.VIRTUAL_HOST}'
+git:
+  default_branch: develop
+  remotes:
+    cloud: 'git@github.com:Levithan9812/gzepeda.git'
