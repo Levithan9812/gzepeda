@@ -1,0 +1,15 @@
+uuid: 19d4d9b0-b0b7-45c1-9f81-796b612e381a
+langcode: en
+status: true
+dependencies:
+  module:
+    - search_api_db
+id: database
+name: Database
+description: ''
+backend: search_api_db
+backend_config:
+  database: 'default:default'
+  min_chars: 3
+  matching: words
+  phrase: bigram
