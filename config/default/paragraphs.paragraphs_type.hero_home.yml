@@ -1,0 +1,10 @@
+uuid: 22d89875-ed39-435e-ac54-8897f5378ef6
+langcode: en
+status: true
+dependencies: {  }
+id: hero_home
+label: 'Hero Home'
+icon_uuid: null
+icon_default: null
+description: 'Hero Homepage paragraph.'
+behavior_plugins: {  }
