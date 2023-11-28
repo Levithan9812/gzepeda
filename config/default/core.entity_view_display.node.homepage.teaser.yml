@@ -1,15 +1,16 @@
-uuid: 2fb06ada-0d34-434d-bbed-e0d2ccc5f698
+uuid: 538c32a4-3670-4962-8874-46c39317237c
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - node.type.course
+    - field.field.node.homepage.field_item
+    - node.type.homepage
   module:
     - user
-id: node.course.teaser
+id: node.homepage.teaser
 targetEntityType: node
-bundle: course
+bundle: homepage
 mode: teaser
 content:
   links:
@@ -18,5 +19,6 @@ content:
     weight: 100
     region: content
 hidden:
+  field_item: true
   langcode: true
   search_api_excerpt: true

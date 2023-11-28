@@ -1,0 +1,10 @@
+uuid: 930e8235-1ed3-45b7-a942-78fe0dbdea56
+langcode: en
+status: true
+dependencies: {  }
+id: row_basic
+label: 'Row Basic Page'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

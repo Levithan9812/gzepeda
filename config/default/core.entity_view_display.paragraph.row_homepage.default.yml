@@ -1,0 +1,25 @@
+uuid: d5cc5b71-a9b4-4bbb-884a-6b87a1d9a726
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.row_homepage.field_item
+    - paragraphs.paragraphs_type.row_homepage
+  module:
+    - entity_reference_revisions
+id: paragraph.row_homepage.default
+targetEntityType: paragraph
+bundle: row_homepage
+mode: default
+content:
+  field_item:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  search_api_excerpt: true

@@ -1,15 +1,17 @@
-uuid: 3c2551d0-6b3d-481e-9528-9acc17906356
+uuid: dc505466-9b76-4bc9-8174-82cefeed86cb
 langcode: en
 status: true
 dependencies:
   config:
-    - node.type.course
+    - core.entity_view_mode.node.teaser
+    - field.field.node.basic_page.field_item_basic
+    - node.type.basic_page
   module:
     - user
-id: node.course.default
+id: node.basic_page.teaser
 targetEntityType: node
-bundle: course
-mode: default
+bundle: basic_page
+mode: teaser
 content:
   links:
     settings: {  }
@@ -17,5 +19,6 @@ content:
     weight: 100
     region: content
 hidden:
+  field_item_basic: true
   langcode: true
   search_api_excerpt: true

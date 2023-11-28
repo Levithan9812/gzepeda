@@ -1,0 +1,37 @@
+uuid: c25d4938-35cf-45fd-95d4-79efc5c54035
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_item_basic
+    - node.type.basic_page
+    - paragraphs.paragraphs_type.row_basic
+  module:
+    - entity_reference_revisions
+id: node.basic_page.field_item_basic
+field_name: field_item_basic
+entity_type: node
+bundle: basic_page
+label: item
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      row_basic: row_basic
+    negate: 0
+    target_bundles_drag_drop:
+      hero_home:
+        weight: 4
+        enabled: false
+      row_basic:
+        weight: 5
+        enabled: true
+      row_homepage:
+        weight: 6
+        enabled: false
+field_type: entity_reference_revisions
