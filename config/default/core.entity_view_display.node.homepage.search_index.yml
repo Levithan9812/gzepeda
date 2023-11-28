@@ -1,17 +1,18 @@
-uuid: be63b2ed-66f2-49c5-9d93-2024c3186eb7
+uuid: c5d05925-dc4e-435c-9433-a17c67220dfd
 langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.node.search_index
     - field.field.node.homepage.field_item
     - node.type.homepage
   module:
     - entity_reference_revisions
     - user
-id: node.homepage.default
+id: node.homepage.search_index
 targetEntityType: node
 bundle: homepage
-mode: default
+mode: search_index
 content:
   field_item:
     type: entity_reference_revisions_entity_view

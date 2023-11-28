@@ -1,0 +1,15 @@
+{% include '@gzepeda_theme/templates/layout/inc/header.html.twig' %}
+
+<main role="main" class="pb-5">
+  <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
+
+  {% include '@gzepeda_theme/layout/inc/primary-tabs-region.html.twig' %}
+  {% include '@gzepeda_theme/layout/inc/breadcrumb-region.html.twig' %}
+
+  <div class="main-content">
+    <div class="container-fluid limiter-large">
+      {{ page.content }}
+    </div>
+  </div>
+
+</main>
