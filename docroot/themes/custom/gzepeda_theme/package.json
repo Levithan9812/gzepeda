@@ -1,0 +1,27 @@
+{
+  "name": "gzepeda_theme",
+  "version": "1.0.0",
+  "description": "First version of my personal portfolio",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "testeo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Levithan9812/gzepeda.git"
+  },
+  "keywords": [
+    "personal",
+    "portfolio",
+    "drupal",
+    "sass"
+  ],
+  "author": "Gerardo Zepeda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Levithan9812/gzepeda/issues"
+  },
+  "homepage": "https://github.com/Levithan9812/gzepeda#readme"
+}
