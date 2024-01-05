@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "First version of my personal portfolio",
   "main": "gulpfile.js",
-  "dependencies": {},
-  "devDependencies": {},
+  "dependencies": {
+    "glob-parent": ">=5.1.2"
+  },
+  "devDependencies": {
+    "glob-parent": ">=5.1.2"
+  },
   "scripts": {
     "test": "testeo"
   },
