@@ -1,0 +1,22 @@
+/*!
+ * Bootstrap v5.3.2 (https://getbootstrap.com/)
+ * Copyright 2011-2021 The Bootstrap Authors
+ * Copyright 2011-2021 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
+
+@import "../../../contrib/bootstrap5/dist/bootstrap/5.3.2/scss/mixins/banner";
+@include bsBanner("");
+
+// 3. Include remainder of required Bootstrap stylesheets (including any separate color mode stylesheets)
+@import "../../../contrib/bootstrap5/dist/bootstrap/5.3.2/scss/functions";
+@import "variables_bootstrap";
+@import "../../../contrib/bootstrap5/dist/bootstrap/5.3.2/scss/variables";
+@import "../../../contrib/bootstrap5/dist/bootstrap/5.3.2/scss/variables-dark";
+
+// 4. Include any default map overrides here
+
+// 5. Include remainder of required parts
+@import "../../../contrib/bootstrap5/dist/bootstrap/5.3.2/scss/maps";
+@import "../../../contrib/bootstrap5/dist/bootstrap/5.3.2/scss/mixins";
+@import "root"; // Overriden.
