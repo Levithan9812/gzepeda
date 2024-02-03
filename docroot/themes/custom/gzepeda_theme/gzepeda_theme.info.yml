@@ -4,7 +4,7 @@ description: 'gzepeda subtheme based on Bootstrap 5 theme.'
 core_version_requirement: '^9.4 || ^10'
 'base theme': bootstrap5
 libraries:
-  - gzepeda_theme/global-styling
+  - 'gzepeda_theme/global-styling'
 ckeditor_stylesheets:
   - css/style.css
 ckeditor5-stylesheets:
@@ -14,6 +14,7 @@ regions:
   nav_branding: 'Navigation branding region'
   nav_main: 'Main navigation region'
   nav_additional: 'Additional navigation region (eg search form, social icons, etc)'
+  primary_tabs: 'Primary Tabs'
   breadcrumb: Breadcrumbs
   content: 'Main content'
   footer: Footer

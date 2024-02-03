@@ -1,6 +1,18 @@
 <?php
+// phpcs:ignoreFile
 
 /**
  * @file
  * gzepeda theme file.
  */
+
+include_once 'inc/preprocess.block.inc';
+include_once 'inc/preprocess.facets.inc';
+include_once 'inc/preprocess.field.inc';
+include_once 'inc/preprocess.html.inc';
+include_once 'inc/preprocess.node.inc';
+include_once 'inc/preprocess.page.inc';
+include_once 'inc/preprocess.paragraph.inc';
+include_once 'inc/theme_settings.inc';
+include_once 'inc/theme_suggestions_input.inc';
+include_once 'inc/theme_suggestions_page.inc';

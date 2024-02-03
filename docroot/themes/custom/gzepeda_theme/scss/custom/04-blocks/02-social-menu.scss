@@ -1,0 +1,124 @@
+#block-socialnav{
+  text-align: center;
+
+  #block-socialnav-menu{
+    margin-bottom: 10px;
+    color: var(--bs-footer-top-bar-text-color);
+  }
+
+  ul.navbar-nav{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    a.nav-link{
+      position: relative;
+      margin: 0 10px;
+      padding: 0;
+      text-align: left;
+      text-indent: -99999px;
+      width: 30px;
+      height: 30px;
+      color: yellow;
+
+      &:after{
+        content: '';
+        @include mask-repeat(none);
+        @include mask-size(30px 30px);
+        @include mask-position(center center);
+        background-color: var(--bs-footer-top-bar-link-color-hover);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        @include transform(translate(-50%, -50%));
+        width: 30px;
+        height: 30px;
+      }
+
+      &:hover, &:focus{
+        &:after{
+          background-color: var(--bs-footer-top-bar-link-color-hover);
+        }
+      }
+
+      &:focus{
+        &:before{
+          content: '';
+          position: absolute;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          outline-offset: 1px;
+          outline: -webkit-focus-ring-color auto 1px;
+        }
+      }
+
+      &.facebook{
+        &:after{
+          @include mask-image(url('../images/icons/ion-social-facebook-ionicons.svg'));
+        }
+      }
+
+      &.twitter{
+        &:after{
+          @include mask-image(url('../images/icons/ion-social-twitter-ionicons.svg'));
+        }
+      }
+
+      &.instagram{
+        &:after{
+          @include mask-image(url('../images/icons/ion-social-instagram-ionicons.svg'));
+        }
+      }
+
+      &.linked-in{
+        &:after{
+          @include mask-image(url('../images/icons/ion-social-linkedin-ionicons.svg'));
+        }
+      }
+
+      &.youtube{
+        &:after{
+          @include mask-image(url('../images/icons/ion-social-youtube-ionicons.svg'));
+        }
+      }
+
+      &.snapchat{
+        &:after{
+          @include mask-image(url('../images/icons/ion-social-snapchat-ionicons.svg'));
+        }
+      }
+
+      &.tiktok{
+        &:after{
+          @include mask-image(url('../images/icons/tik-tok.svg'));
+        }
+      }
+
+      &.tik-tok{
+        &:after{
+          @include mask-image(url('../images/icons/tik-tok.svg'));
+        }
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up(md) {
+  #block-socialnav{
+    display: flex;
+    flex-direction: row;
+
+    #block-socialnav-menu{
+      margin-bottom: 0;
+      margin-right: 10px;
+      display: flex;
+      align-self: center;
+    }
+
+    ul.navbar-nav li:last-child a.nav-link{
+      margin-right: 0;
+    }
+  }
+}

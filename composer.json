@@ -27,6 +27,7 @@
         "drupal/search_api": "^1.31",
         "drupal/search_api_solr": "^4.3",
         "drupal/simple_sitemap": "^4.1",
+        "drupal/twbstools": "2.1.x-dev",
         "drupal/ultimate_cron": "^2.0@alpha",
         "drush/drush": "^12",
         "oomphinc/composer-installers-extender": "^2"
@@ -121,7 +122,11 @@
         "patchLevel": {
             "drupal/core": "-p2"
         },
-        "patches": {}
+        "patches": {
+            "drupal/twbstools": {
+                "Fixes path for bs5 styleguide": "https://www.drupal.org/files/issues/2022-05-23/documentation-route-3280371-4.patch"
+            }
+        }
     },
     "repositories": {
         "drupal": {

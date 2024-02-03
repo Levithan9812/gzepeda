@@ -1,0 +1,16 @@
+{% include '@gzepeda_theme/layout/inc/header.html.twig' %}
+
+<main role="main">
+  <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
+
+  {% include '@gzepeda_theme/layout/inc/primary-tabs-region.html.twig' %}
+  {% include '@gzepeda_theme/layout/inc/breadcrumb-region.html.twig' %}
+  {% include '@gzepeda_theme/layout/inc/highlighted.html.twig' %}
+  {% include '@gzepeda_theme/layout/inc/facets.html.twig' %}
+
+  <div class="main-content">
+    {{ page.content }}
+  </div>
+</main>
+
+{% include '@gzepeda_theme/layout/inc/footer.html.twig' %}

@@ -1,0 +1,28 @@
+{% if page.footer_top or page.footer or page.footer_right %}
+<footer class="mt-auto bg-body" data-bs-theme="dark">
+  {% if page.footer_top %}
+  <div class="footer-top py-5">
+    <div class="wrapper container-fluid limiter-extra-large">
+      {{ page.footer_top }}
+    </div>
+  </div>
+  {% endif %}
+
+  {% if page.footer or page.footer_right %}
+  <div class="footer-bottom py-5">
+    <div class="wrapper container-fluid limiter-extra-large">
+      <div class="row">
+        {{ page.footer }}
+        {{ page.footer_right }}
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom copyright">
+    <div class="wrapper container-fluid limiter-extra-large">
+      {{ page.footer_bottom }}
+    </div>
+  </div>
+  {% endif %}
+</footer>
+{% endif %}
