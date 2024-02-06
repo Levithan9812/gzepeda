@@ -19,4 +19,9 @@ regions:
   content: 'Main content'
   footer: Footer
 libraries-override:
-  bootstrap5/global-styling: false
+  bootstrap5/global-styling:
+    css:
+      theme:
+        css/style.css: false
+  bootstrap5/ckeditor5-stylesheets: false
+  bootstrap5/bootstrap5-js-latest: false
