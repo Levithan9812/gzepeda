@@ -1,41 +1,42 @@
+// Other Libraries.
+
 // Sub theme styling.
 @import 'variables_drupal';
 
+// Bootstrap overriden variables.
+// @see https://getbootstrap.com/docs/5.1/customize/sass/#variable-defaults.
+@import '../../../../themes/contrib/bootstrap5/dist/bootstrap/5.3.2/scss/functions';
+@import 'variables_bootstrap';
+
 // Include bootstrap.
-@import 'bootstrap_core';
+//@import '../../../../themes/contrib/bootstrap5/scss/style';
+@import 'bootstrap';
 
-.ck-content{
-  @import 'bootstrap_components';
+// Include custom styles.
+/**
+ * Mixins.
+ */
+@import 'custom/00-mixin/00-mixin-fonts';
+@import 'custom/00-mixin/01-mixin-transform';
+@import 'custom/00-mixin/03-transition';
+@import 'custom/00-mixin/04-transition-delay';
+@import 'custom/00-mixin/05-filter';
+@import 'custom/00-mixin/06-box-shadow';
+@import 'custom/00-mixin/07-gradient';
+@import 'custom/00-mixin/08-mask-size';
+@import 'custom/00-mixin/09-mask-image';
+@import 'custom/00-mixin/10-mask-position';
+@import 'custom/00-mixin/11-mask-repeat';
+@import 'custom/00-mixin/12-border-radius';
+@import 'custom/00-mixin/13-transition-property';
 
-  // Include custom styles.
-  /**
-   * Mixins.
-   */
-  @import 'custom/00-mixin/00-mixin-fonts';
-  @import 'custom/00-mixin/01-mixin-transform';
-  @import 'custom/00-mixin/03-transition';
-  @import 'custom/00-mixin/04-transition-delay';
-  @import 'custom/00-mixin/05-filter';
-  @import 'custom/00-mixin/06-box-shadow';
-  @import 'custom/00-mixin/07-gradient';
-  @import 'custom/00-mixin/08-mask-size';
-  @import 'custom/00-mixin/09-mask-image';
-  @import 'custom/00-mixin/10-mask-position';
-  @import 'custom/00-mixin/11-mask-repeat';
-  @import 'custom/00-mixin/12-border-radius';
-  @import 'custom/00-mixin/13-transition-property';
 
-  /**
-   * Customs.
-   */
-  @import 'custom/01-global/00-root';
-  @import 'custom/01-global/02-fonts';
-  @import 'custom/01-global/10-typography';
-  @import 'custom/01-global/16-container';
-  @import 'custom/01-global/20-links';
-}
-
-.paragraph-type--row-dark .ck.ck-editor__main>.ck-editor__editable,
-.paragraph-type--row-dark-team .ck.ck-editor__main>.ck-editor__editable{
-  background: var(--bs-body-bg);
-}
+/**
+ * Customs.
+ */
+@import 'custom/01-global/00-root';
+@import 'custom/01-global/02-fonts';
+@import 'custom/01-global/10-typography';
+@import 'custom/01-global/13-wysiwyg-field';
+@import 'custom/01-global/20-links';
+@import 'custom/01-global/101-theme-color';

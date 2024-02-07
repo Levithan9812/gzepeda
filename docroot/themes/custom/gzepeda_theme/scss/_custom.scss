@@ -25,7 +25,7 @@
  @import 'custom/01-global/09-admin-toolbar';*/
  @import 'custom/01-global/10-typography';
  /*@import 'custom/01-global/11-text-shadow';*/
- @import 'custom/01-global/12-dialog-off-canvas';
+ /*@import 'custom/01-global/12-dialog-off-canvas';*/
  /*@import 'custom/01-global/13-wysiwyg-field';
  @import 'custom/01-global/14-form-elements';
  @import 'custom/01-global/15-themes';*/
@@ -69,8 +69,8 @@
   */
  /*@import 'custom/04-blocks/01-footer-link';
  @import 'custom/04-blocks/02-social-menu';*/
- @import 'custom/04-blocks/03-case-study-hero';
- @import 'custom/04-blocks/04-article-hero';
+ /*@import 'custom/04-blocks/03-case-study-hero';*/
+ /*@import 'custom/04-blocks/04-article-hero';*/
  
  /**
   * Hero's.
@@ -86,22 +86,7 @@
  /**
  * Paragraphs.
  */
- @import 'custom/05-paragraphs/01-video-player';
- @import 'custom/05-paragraphs/02-text-block-1';
- @import 'custom/05-paragraphs/03-scrolling-gallery';
- @import 'custom/05-paragraphs/04-image-gallery';
- @import 'custom/05-paragraphs/05-full-width-image';
- @import 'custom/05-paragraphs/06-soundcloud-player';
- @import 'custom/05-paragraphs/07-text-block-3-case-study';
- @import 'custom/05-paragraphs/08-text-block-2';
- @import 'custom/05-paragraphs/20-team-member-grid';
- @import 'custom/05-paragraphs/22-team-gallery-masonry';
- @import 'custom/05-paragraphs/30-contact-accordion';
- @import 'custom/05-paragraphs/31-accordion-block';
- @import 'custom/05-paragraphs/32-accordion-item';
- @import 'custom/05-paragraphs/40-slider-card-tabs';
- @import 'custom/05-paragraphs/41-stats';
- @import 'custom/05-paragraphs/42-horizontal-accordion';
+ @import 'custom/05-paragraphs/00-hero';
  
  /**
   * Views.
@@ -125,8 +110,8 @@
  @import 'custom/06-views/04-search/01-search';
  @import 'custom/06-views/05-areas-of-study/00-areas-of-study';
  */
- @import 'custom/06-views/06-case-studies/00-case-studies.scss';
- @import 'custom/06-views/07-article/01-article-card';
+ /*@import 'custom/06-views/06-case-studies/00-case-studies.scss';*/
+ /*@import 'custom/06-views/07-article/01-article-card';*/
  
  /**
   * Global.
@@ -138,20 +123,4 @@
   * Node.
   */
  @import 'custom/08-node/00-homepage';
- @import 'custom/08-node/01-case-study';
- @import 'custom/08-node/02-team-hero';
- @import 'custom/08-node/03-team-outro';
- @import 'custom/08-node/04-article';
- @import 'custom/08-node/05-contact-hero';
- @import 'custom/08-node/06-contact-card';
- @import 'custom/08-node/07-contact-accordion';
- @import 'custom/08-node/08-about-hero';
- @import 'custom/08-node/07-about/00-about';
- @import 'custom/08-node/07-about/02-stats';
- @import 'custom/08-node/07-about/03-slider-card-tabs';
- @import 'custom/08-node/07-about/04-clients';
- @import 'custom/08-node/14-government-hero';
- @import 'custom/08-node/15-government-featured-work';
- @import 'custom/08-node/16-diversity-in-medical-reasearch';
- @import 'custom/08-node/17-boomers-culture-reports';
  

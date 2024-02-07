@@ -11,6 +11,7 @@ sass.compiler         = require('node-sass');
 gulp.task('sass', function () {
   return gulp.src('./scss/style.scss')
     .pipe(sourcemaps.init())
+    .pipe(sass().on('error', sass.logError))
     .pipe(sourcemaps.write('.'))
     //.pipe(removeSourcemaps())
     .pipe(gulp.dest('./css'));
@@ -18,6 +19,7 @@ gulp.task('sass', function () {
 
 gulp.task('sass_ckeditor', function () {
   return gulp.src('./scss/style_ckeditor.scss')
+    .pipe(sass().on('error', sass.logError))
     //.pipe(removeSourcemaps())
     .pipe(gulp.dest('./css'));
 });

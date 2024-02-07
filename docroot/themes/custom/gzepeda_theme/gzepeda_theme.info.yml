@@ -5,10 +5,20 @@ core_version_requirement: '^9.4 || ^10'
 'base theme': bootstrap5
 libraries:
   - 'gzepeda_theme/global-styling'
-ckeditor_stylesheets:
-  - css/style.css
+stylesheets-remove:
+  - '@bootstrap5/css/style.css'
+
+libraries-override:
+  bootstrap5/global-styling:
+    css:
+      theme:
+        css/style.css: false
+  bootstrap5/ckeditor5-stylesheets: false
+  bootstrap5/bootstrap5-js-latest: false
+
 ckeditor5-stylesheets:
-  - css/ck5style.css
+  - css/style_ckeditor.min.css
+
 regions:
   header: Header
   nav_branding: 'Navigation branding region'
@@ -18,10 +28,3 @@ regions:
   breadcrumb: Breadcrumbs
   content: 'Main content'
   footer: Footer
-libraries-override:
-  bootstrap5/global-styling:
-    css:
-      theme:
-        css/style.css: false
-  bootstrap5/ckeditor5-stylesheets: false
-  bootstrap5/bootstrap5-js-latest: false
